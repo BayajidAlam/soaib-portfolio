@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .navbar {
   background-color: #1a187a;
@@ -51,22 +51,32 @@
   height: 100vh;
 }
 
+.custom_carousal {
+  /* width: 1802px; */
+  height: 600px !important;
+  flex-shrink: 0;
+}
+.custom_carousal-icon {
+  color: #670e86;
+}
+
+.carosul-content{
+  
+}
+
 /* Styles for small screens */
 @media (max-width: 767px) {
-  .brand_logo-parent{
+  .brand_logo-parent {
     width: 50%;
   }
-  .button_parent{
+  .button_parent {
     width: 35%;
   }
 }
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
-  .brand_logo {
-    /* font-size: 100px !important */
-  }
-  .brand_logo-parent{
+  .brand_logo-parent {
     width: 25%;
   }
 }
