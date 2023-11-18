@@ -1,5 +1,11 @@
-.navbar{
-    background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #1a187a;
 }
 /* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
@@ -10,7 +16,7 @@
 
 /* Color of the navbar BEFORE scroll */
 .navbar-scroll {
-  background-color: #FFC017;
+  background-color: #ffc017;
 }
 
 /* Color of the links AFTER scroll */
@@ -34,7 +40,33 @@
   font-size: unset;
   height: 3.5rem;
 }
-.slider-container{
-    width: 100%;
-    height: 100vh;
+
+.font-awesome-icons {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.slider-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styles for small screens */
+@media (max-width: 767px) {
+  .brand_logo-parent{
+    width: 50%;
+  }
+  .button_parent{
+    width: 35%;
+  }
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  .brand_logo {
+    /* font-size: 100px !important */
+  }
+  .brand_logo-parent{
+    width: 25%;
+  }
 }
