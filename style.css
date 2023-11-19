@@ -1,8 +1,8 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 .navbar {
   background-color: #1a187a;
@@ -60,23 +60,160 @@
   color: #670e86;
 }
 
-.carosul-content{
-  
+/* 11.11 Sale  */
+.fixed-width {
+  width: 300px;
+  height: 350px;
+}
+.margin {
+  margin-left: -30px;
+}
+.margin2 {
+  margin-right: -30px;
+}
+.custom-bg {
+  background-color: #958ad4;
+  color: #ffffff;
+}
+
+.custom-text {
+  color: #e74c3c;
+}
+
+.span {
+  color: #25177b;
 }
 
 /* Styles for small screens */
 @media (max-width: 767px) {
+  .carousel_text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .carousel_text-p {
+    font-size: 15px;
+    color: #1e046a;
+    text-align: center;
+    margin: 0;
+  }
+  .carousel_text-p-2 {
+    font-size: 35px !important;
+    margin: 0;
+    font-weight: normal;
+  }
+  .carousel_text-p-3 {
+    color: black;
+  }
+  .carosul_button {
+    margin-bottom: 270px;
+    display: inline-flex;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #171495;
+    color: white;
+    border: none;
+  }
   .brand_logo-parent {
     width: 50%;
   }
   .button_parent {
     width: 35%;
   }
+
+  .banner-container {
+    height: 700px;
+  }
+
+  .image-1 {
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+  }
+  .image-2 {
+    width: 285px;
+    height: 240px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+  }
+
+  .banner_text {
+    padding-top: 210px;
+  }
+
+  .carousol-image {
+    display: none;
+  }
+
+  .carousol-image-sm {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: 10%;
+  }
 }
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
+  .carousel_text {
+    text-align: start;
+  }
+  .carousel_text-p {
+    font-size: 25px;
+    color: #1e046a;
+    text-align: start;
+  }
+  .carousel_text-p-2 {
+    font-size: 96px;
+  }
+  .carousel_text-p-3 {
+    color: black;
+  }
   .brand_logo-parent {
     width: 25%;
+  }
+
+  .banner-container {
+    height: 450px;
+  }
+
+  .image-1 {
+    position: absolute;
+    left: 0;
+  }
+  .image-2 {
+    position: absolute;
+    right: 0;
+  }
+
+  .my-scarousol {
+    position: absolute;
+    top: 30%;
+  }
+
+  .carousol-image {
+    /* height: 900; */
+    display: block;
+  }
+
+  .carousol-image-sm {
+    display: none;
+  }
+
+  .carosul_button {
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #171495;
+    color: white;
+    border: none;
   }
 }
