@@ -278,6 +278,7 @@
 
   .image-420-1{
     display: block;
+    height: 600px;
   }
   .image-420-2{
     display: none;
@@ -286,4 +287,5 @@
   .left_side-image{
     height: 315px;
   }
+  
 }
